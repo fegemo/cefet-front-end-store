@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica, 'Helvetica Neue', sans-serif;
+  background-color: #ccc;
+}
+
+main {
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+}
+
+section {
+  float: right;
+  width: 78%;
+  padding: 0 1%;
+}
+
+article {
+  float: left;
+  width: 44%;
+  padding: 2%;
+  background-color: #ffff99;
+  margin: 0 1% 1% 0;
+}
+
+article:nth-child(even) {
+  clear: left;
+}
+
+aside {
+  float: left;
+  width: 18%;
+  padding: 1%;
+  background-color: #ddd;
+}
+
+footer {
+  clear: both;
+}

@@ -75,3 +75,22 @@ footer {
   border-top: 1px solid #0003;
   padding-top: 0em;
 }
+
+
+@media (max-width: 1000px) {
+  article {
+    width: 32%;
+  }
+}
+
+@media (max-width: 800px) {
+  article {
+    width: 49%;
+  }
+}
+
+@media (max-width: 400px) {
+  article {
+    width: 99%;
+  }
+}

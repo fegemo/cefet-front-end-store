@@ -96,4 +96,8 @@ footer {
   article {
     width: 99%;
   }
+
+  #menu-principal ul {
+    flex-direction: column;
+  }
 }

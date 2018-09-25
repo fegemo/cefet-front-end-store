@@ -87,6 +87,9 @@ footer {
   article {
     width: 49%;
   }
+  main {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 400px) {

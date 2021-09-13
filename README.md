@@ -1,13 +1,14 @@
 # Super Loja
 
-Vendendo o que você não quer comprar. Baixe os [arquivos aqui][baixar].
+Vendendo o que você não quer comprar desde 2017. Baixe os [arquivos aqui][baixar].
 O resultado final deve se parecer com isto aqui, em um dispositivo
 com a tela menor:
 
 ![](https://fegemo.github.io/cefet-front-end-large-assets/apng/super-store.png)
 
 
-[baixar]: https://github.com/fegemo/cefet-front-end-store/archive/master.zip
+[baixar]: https://github.com/fegemo/cefet-front-end-store/archive/main.zip
+
 
 ## Exercício 0: Definindo a **_viewport_**
 
@@ -23,10 +24,12 @@ que ele precise fazer um _"zoom out"_ pra conseguir mostrar tudo.
 Para evitar que isso aconteça, podemos instruir o navegador pra falar
 que pretendemos desenhar a página usando apenas X pixels de largura.
 Defina a janela de pintura (_viewport_) da página como tendo a mesma largura
-que a largura do dispositivo (computador, celular etc.), não mais, não menos. Veja [como definir a _viewport_ nos slides][viewport].
+que a largura do dispositivo (computador, celular etc.), não mais, não menos.
+Veja [como definir a _viewport_ nos slides][viewport].
 
 Para saber se deu certo, veja no [FAQ](#faq) como usar as ferramentas do
 desenvolvedor pra simular que a página está sendo acessada por um celular.
+
 
 ## Exercício 1: _Breakpoints_ para 3, 2 e 1 produto por linha
 
@@ -60,12 +63,14 @@ main {
 }
 ```
 
+
 ## Exercício 3: Menu vertical
 
 Na mesma largura do exercício anterior, faça com que o menu principal
 (`#menu-principal`) seja mostrado com cada item em uma linha (ou seja,
 altere a direção _flex_ para funcionar como uma coluna - assim como
 foi feito no exercício anterior.
+
 
 ## Desafio 1: Menu hamburguer
 
@@ -78,6 +83,7 @@ que vimos em outra aula.
 É possível fazer isso com _media queries_ + um código JavaScript
 para colocar/remover uma classe para mostrar/ocultar o menu.
 
+
 ## FAQ
 
 
@@ -86,7 +92,7 @@ para colocar/remover uma classe para mostrar/ocultar o menu.
 As ferramentas do desenvolvedor possuem um recurso de simulação de
 dispositivos como celulares e _tablets_. Para ativar esse recurso:
 
-![](docs/ativando-simulacao-celular.png)
+![](docs/ativando-simulacao-celular.webp)
 
 ### O que é _media query_?
 

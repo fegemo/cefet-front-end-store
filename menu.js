@@ -1,12 +1,8 @@
-let itensDoMenu = document.querySelectorAll('#menu-principal li');
+const itensDoMenu = document.querySelectorAll('#menu-principal li');
 
-itensDoMenu.forEach(function(itemEl) {
-  itemEl.addEventListener('click', ativaItemMenu);
-});
+itensDoMenu.forEach(el => el.addEventListener('click', ativaItemMenu));
 
 function ativaItemMenu(e) {
-  itensDoMenu.forEach(function(itemEl) {
-    itemEl.classList.remove('menu-ativo');
-  });
+  itensDoMenu.forEach(el => el.classList.remove('menu-ativo'));
   e.currentTarget.classList.add('menu-ativo');
 }

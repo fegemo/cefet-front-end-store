@@ -4,7 +4,7 @@ Vendendo o que você não quer comprar desde 2017. Baixe os [arquivos aqui][baix
 O resultado final deve se parecer com isto aqui, em um dispositivo
 com a tela menor:
 
-![](https://fegemo.github.io/cefet-front-end-large-assets/apng/super-store.png)
+![](https://fegemo.github.io/cefet-front-end-large-assets/webp/super-store.webp)
 
 
 [baixar]: https://github.com/fegemo/cefet-front-end-store/archive/main.zip
